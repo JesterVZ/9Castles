@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+@font-face {
+    font-family: ChinaCyr; /* Гарнитура шрифта */
+    src: url("../fonts/8650.ttf"); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Lato; /* Гарнитура шрифта */
+    src: url("../fonts/9622.ttf"); /* Путь к файлу со шрифтом */
+}
+.first-level-title{
+    width: 100%;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 40px;
+}
+.first-level-title span{
+    color: #FFA115;    
+    font-size: 24px;
+
+}
+.first-level-descr{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.first-level-list-title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #FFA115;
+    text-align: center;
+    width: 100%;
+    min-height: 53px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    left: -17px;
+}
+ul{
+    margin-left: 108px;
+    margin-right: 225px;
+
+}
+li{
+    color: #FFA115;
+}
+li span{
+    color: black;
+}
+.period-img{
+    display: inline-block;
+    position: relative;
+    top: -43px;
+    margin-right: 28px;
+}
+.period-title{
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+}
+.period-title span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+.learn-period{
+    margin-top: 40px;
+}
+@media(max-width: 1610px){
+    .learn-period{
+        text-align: center;
+    }
+    .period-img{
+        top: -15px;
+    }
+    ul{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
